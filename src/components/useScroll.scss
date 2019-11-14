@@ -1,0 +1,36 @@
+.useScroll {
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100vw - 4rem);
+  max-width: 900px;
+
+  h1 {
+    position: sticky;
+    color: white;
+    top: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  aside {
+    min-width: 200px;
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 2rem;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+  .content {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+    p + p {
+      margin-top: 1rem;
+    }
+  }
+}
